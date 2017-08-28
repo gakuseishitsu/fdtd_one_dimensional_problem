@@ -9,7 +9,7 @@ const double eps0 = 8.8541878e-12; //! 真空の誘電率
 const double mu0 = 1.256637e-6; //! 真空の透磁率
 const double z0 = 376.73031; //! 真空のインピーダンス
 
-const std::string filename = "fdtd_data.dat";
+const std::string filename = "../gnuplot_src/fdtd_data.dat";
 
 const int nz0 = 1000; //! 解析領域の分割数
 const int nstep = 2000; //! 計算のステップ数
